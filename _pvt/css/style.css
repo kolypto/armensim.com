@@ -1,0 +1,80 @@
+/* =========[ DEFAULTS ]========== */
+html {
+	font-size: 16pt;
+	}
+
+/* =========[ LAYOUT ]========== */
+body {
+	text-align: center;
+	}
+#content {
+	position: relative;
+	width: 1024px;  margin:auto;
+	}
+#header {
+	}
+#body {
+	padding: 0px 16px;
+	}
+#footer {
+	}
+
+/* =========[ LAYOUT-DESIGN ]========== */
+body {
+	background: #8E6F44 url("../img/wall-o.jpg") repeat;
+	}
+#header {
+	text-align: center;
+	}
+#body {
+	}
+#footer {
+	margin: 20px 0 50px 0;
+	}
+
+/* =========[ DESIGN ]========== */
+#body #body-top {
+	height: 153px; margin: 0 -153px;
+	background: #FFF url("../img/framing.jpg") no-repeat;
+	}
+#body #body-butt {
+	height: 153px; margin: 0 -153px;
+	background: #FFF url("../img/framing.jpg") no-repeat;
+	background-position: 0 -724px;
+	}
+#body {
+	background: #FFF url("../img/framing-canvas-lr.jpg") repeat-y;
+	padding: 0px 153px;
+	}
+#footer .contacts {
+	text-align: center;
+	}
+
+/* =========[ ITEMS ]========== */
+@font-face {
+	font-family: "Gabrielle";
+	src: url("../misc/Gabrielle.ttf");
+	}
+
+#header {
+	font: 60pt "Gabrielle";
+	color: #AAA;
+	line-height: 100pt;
+	}
+#header .sim {
+	color: #514F54;
+	}
+
+/* =========[ GALLERY ]========== */
+#gallery ul {
+	margin: 2px;
+	}
+#gallery ul li {
+	display: block; float: left;
+	height: 215px; width: 215px;
+	margin: 10px;
+	text-align: center;
+	}
+
+#cboxTitle { font-size: 12pt; color: #000; }
+#cboxCurrent { font-size: 12pt; color: #000; }

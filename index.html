@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html> 
+<head>
+	<meta charset="utf-8" />
+	<title>Armen Simonyan</title>
+	<link media="screen" rel="stylesheet" href="_pvt/css/reset5.css" />
+	<link media="screen" rel="stylesheet" href="_pvt/css/style.css" />
+	
+	<!--[if IE 6]>
+		<link media="screen" rel="stylesheet" href="_pvt/css/style-ie6.css" />
+		<![endif]-->
+	
+	<script src="_pvt/js/jquery-1.6.4.min.js"></script>
+	<script src="_pvt/js/jquery.tmpl.min.js"></script>
+	
+	<script src="_pvt/js/colorbox/colorbox/jquery.colorbox-min.js"></script>
+	<link media="screen" rel="stylesheet" href="_pvt/js/colorbox/example1/colorbox.css" />
+	
+	<script src="_pvt/js/cd.js"></script>
+	</head>
+<body>
+
+<div id="content">
+	<div id="header">
+		<h1><span class="sim">Sim</span>onyan Armen</h1>
+		</div>
+	<div id="body">
+		<div id="body-top"></div>
+		
+		<div id="gallery">
+			<ul class="clearfix"></ul>
+			</div>
+		
+		<div id="body-butt"></div>
+		</div>
+	<div id="footer">
+		<div class="contacts">
+			<i>Если ты разрежешь сердце одной капли — из неё польются тысячи океанов...</i>
+			<br />
+			<br />
+			Armen Simonyan<br />
+			Phone: +374 (93) 82-02-74, +7 (916) 978-00-30 <br />
+			E-mail: <a href="mailto"></a>
+			</div>
+		</div>
+	</div>
+
+<script>
+$(function(){
+	var mail = unescape('%61%72%6d%65%6e%73%69%6d%31%40%67%6d%61%69%6c%2e%63%6f%6d');
+	$('.contacts a[href=mailto]').attr('href', 'mailto:'+mail).text(mail);
+	});
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,5 @@
+[autorun]
+ShellExecute=index.html
+;open=winopen \index.html
+;open=command /c start /max index.html
+label=Simonyan Armen, 2011
