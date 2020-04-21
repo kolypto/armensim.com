@@ -107,7 +107,7 @@ $(function(){
 	// gallery
 	$.template(
 			'gal_item',
-			'<li><a href="Photo-small/${i}.jpg" title="${title}"><img src="_pvt/thumbs/Photo-small/${i}.jpg" /></a></li>'
+			'<li><a href="Photo-small/${i}.jpg" title="${title}"><img src="i/thumbs/Photo-small/${i}.jpg" /></a></li>'
 			);
 	
 	var gal = $('#gallery ul');
